@@ -69,11 +69,11 @@
 .slider {
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content:center;
     flex-wrap:nowrap;
     width: 600px;
     margin-top: 200px;
-    overflow:hidden
+    overflow:scroll
 }
 
 .slider li {
@@ -82,10 +82,10 @@
 }
 
 .slider img {
-    margin: auto;
+    margin:auto;
     height: 100%;
     width: 600px;
-    vertical-align:auto
+    vertical-align:auto;
 }
 
 .slider label {
